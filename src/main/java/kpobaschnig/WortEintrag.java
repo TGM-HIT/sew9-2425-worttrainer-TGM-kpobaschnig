@@ -1,4 +1,4 @@
-package src.main.java.kpobaschnig;
+package kpobaschnig;
 
 import java.io.Serializable;
 import java.net.URI;

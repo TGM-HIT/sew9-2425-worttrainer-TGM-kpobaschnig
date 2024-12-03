@@ -1,0 +1,22 @@
+{
+  "answer": 9,
+  "correct": 7,
+  "list": [
+    {
+      "WORT": "Kuh",
+      "URL": "https://www.planet-wissen.de/gesellschaft/trinken/milch/milchkuhwdrgjpg100~_v-gseapremiumxl.jpg"
+    },
+    {
+      "WORT": "Katze",
+      "URL": "https://www.peta.de/wp-content/uploads/2022/12/katzen-cat-6568422_1280-c-pixabay.jpg"
+    },
+    {
+      "WORT": "Hand",
+      "URL": "https://orthinform.de/processed/3/article_408_a604ef64_900x600.jpg"
+    }
+  ],
+  "currWortEintrag": {
+    "WORT": "Katze",
+    "URL": "https://www.peta.de/wp-content/uploads/2022/12/katzen-cat-6568422_1280-c-pixabay.jpg"
+  }
+}

@@ -1,4 +1,4 @@
-package src.main.java.kpobaschnig;
+package kpobaschnig;
 
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -16,7 +16,7 @@ public class WortTrainer implements Serializable {
     private ArrayList<WortEintrag> list = new ArrayList<>();
     private WortEintrag currWortEintrag;
 
-    pubic WortTrainer(ArrayList<WortEintrag> list) {
+    public WortTrainer(ArrayList<WortEintrag> list) {
         if(list == null) throw new IllegalArgumentException("Die Liste ist leer!");
         this.list = list;
         this.currWortEintrag = list.get(0);

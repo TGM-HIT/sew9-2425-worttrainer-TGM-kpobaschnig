@@ -1,5 +1,7 @@
-package src.main.java.kpobaschnig;
+package kpobaschnig;
 
+import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -20,7 +22,7 @@ public class SaveLoadJSON implements SaveLoad {
      */
     public void save(WortTrainer wortTrainer) throws IOException {
         try(FileWriter fw = new FileWriter(PATH)) {
-            gson.toJson(wortTrainer, fw);
+            GSON.toJson(wortTrainer, fw);
         }
     }
 
@@ -33,7 +35,7 @@ public class SaveLoadJSON implements SaveLoad {
      */
     public WortTrainer load() throws IOException, ClassNotFoundException {
         try(FileReader fr = new FileReader(PATH)) {
-            return gson.fromJson(fr, WortTrainer.class);
+            return GSON.fromJson(fr, WortTrainer.class);
         }
     }
 }
